@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header__title {
+    font-family: Inconsolata;
+    font-size: 1.5rem;
+    padding-top: 1.25rem;
+    padding-left: 1.5rem;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    font-family: Space Mono;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 7rem;
+}
+
+.main__scarecrow {
+    padding: 4rem 1.25rem;
+}
+
+.main__info h1 {
+    font-size: 3rem;
+    padding-bottom: 1.8rem;
+}
+
+.main__info p {
+    font-size: 1.125rem;
+    padding-bottom: 4.1rem;
+}
+
+.main__info button {
+    border: none;
+    font-family: Space Mono;
+    color: white;
+    background-color: #333333;
+    padding: 1.5rem 2.75rem;
+}
+
+.footer__text {
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer__text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__github {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+}
