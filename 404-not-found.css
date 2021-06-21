@@ -20,8 +20,13 @@
     padding-bottom: 7rem;
 }
 
-.main__scarecrow {
+.main__image {
     padding: 4rem 1.25rem;
+}
+
+.main__image-scarecrow {
+    max-width:100%;
+    max-height:100%;
 }
 
 .main__info h1 {
@@ -66,5 +71,35 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+        padding-top: 8rem;
+        padding-bottom: 13rem;
+        align-items: center;
+        justify-content: center;
+        max-height: 28rem;
 
+    }
+
+    .main__image {
+        max-width: 30vw;
+        padding: 4rem 1.25rem;
+    }
+
+    .main__image-scarecrow {
+        max-width:100%;
+        max-height:100%;
+    }
+
+    .main__info {
+        max-width: 70vw;
+        padding: 0 7.5rem;
+        max-width: 560px;
+    }
+
+    .main__info p {
+        max-width: 25rem;
+        text-align: left;
+    }
 }
